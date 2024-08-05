@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringsAzureDemotestApplication {
 
     public String message{
-        @GetMapping("/message")
+        @GetMapping("/messages")
         return "message";
     }
 
