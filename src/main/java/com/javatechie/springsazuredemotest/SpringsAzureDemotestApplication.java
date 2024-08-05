@@ -8,10 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication
 public class SpringsAzureDemotestApplication {
-
-    public String message{
-        @GetMapping("/messages")
-        return "message";
+    @GetMapping("/messages")
+    public String message(){
+        return "messages";
     }
 
     public static void main(String[] args) {
