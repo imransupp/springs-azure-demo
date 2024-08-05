@@ -7,14 +7,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-public class SpringsAzureDemotestApplication {
-    @GetMapping("/messages")
+public class SpringsAzureDemoTestApplication {
+
+    @GetMapping("/message")
     public String message(){
-        return "messages";
+        return "message";
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringsAzureDemotestApplication.class, args);
+        SpringApplication.run(SpringsAzureDemoTestApplication.class, args);
     }
 
 }
